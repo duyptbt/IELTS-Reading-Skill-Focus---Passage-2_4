@@ -1,0 +1,8 @@
+{
+  "name": "IELTS Reading Skill Focus - Passage 2_4",
+  "description": "IELTS Reading Practice & Test platform for Passage 2 (The robots are coming - or are they? What is the current state of play in Artificial Intelligence?) with 20-minute Test Mode, Practice Mode, interactive highlighter, collapsible notes, full explanations, and post-test Consolidation Hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
