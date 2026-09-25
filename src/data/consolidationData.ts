@@ -4,7 +4,8 @@ import {
   SynonymMatchTask,
   CollocationGapTask,
   DiscourseAnalysisTask,
-  SpeedEvidenceTask
+  SpeedEvidenceTask,
+  ParaphrasePair
 } from '../types';
 
 export const VOCABULARY_ITEMS: VocabItem[] = [
@@ -13,126 +14,180 @@ export const VOCABULARY_ITEMS: VocabItem[] = [
     term: 'unorthodox',
     phonetic: '/ʌnˈɔːθədɒks/',
     partOfSpeech: 'adjective',
+    partOfSpeechVi: 'tính từ',
     definition: 'Contrary to what is usual, traditional, or accepted; unconventional.',
+    definitionVi: 'Trái với những gì thông thường, truyền thống hoặc được chấp nhận rộng rãi; phi chính thống, độc đáo, khác biệt.',
     passageQuote: 'He changed the course of research when he explored the unorthodox idea of tiny "insectoid" robots that learned to walk by bumping into things...',
+    passageQuoteVi: 'Ông đã thay đổi tiến trình nghiên cứu khi khám phá ý tưởng phi chính thống về những robot "dạng côn trùng" nhỏ bé học cách đi lại bằng cách va chạm vào đồ vật...',
     paragraphRef: 'D',
     collocations: ['unorthodox approach', 'unorthodox methods', 'unorthodox views'],
+    collocationsVi: ['hướng tiếp cận phi truyền thống', 'các phương pháp khác thường/đột phá', 'quan điểm phi chính thống'],
     synonyms: ['unconventional', 'non-traditional', 'radical', 'innovative', 'heretical'],
     ieltsBand: 'Band 8',
     category: 'Artificial Intelligence & Tech',
-    writingSpeakingTip: 'Great for Task 2 essays discussing creative solutions or scientific breakthroughs (e.g. "Tackling climate change requires unorthodox engineering interventions rather than incremental adjustments").'
+    categoryVi: 'Trí tuệ Nhân tạo & Công nghệ',
+    writingSpeakingTip: 'Great for Task 2 essays discussing creative solutions or scientific breakthroughs (e.g. "Tackling climate change requires unorthodox engineering interventions rather than incremental adjustments").',
+    writingSpeakingTipVi: 'Rất hữu ích cho bài luận Task 2 khi thảo luận về giải pháp sáng tạo hoặc bước đột phá khoa học (VD: "Tackling climate change requires unorthodox engineering interventions rather than incremental adjustments" - Giải quyết biến đổi khí hậu đòi hỏi những can thiệp kỹ thuật phi truyền thống thay vì chỉ điều chỉnh nhỏ).'
   },
   {
     id: 'v2',
     term: 'shortcomings',
     phonetic: '/ˈʃɔːtˌkʌmɪŋz/',
     partOfSpeech: 'noun (plural)',
+    partOfSpeechVi: 'danh từ (số nhiều)',
     definition: 'Faults, defects, or failures to meet a certain standard or requirement.',
+    definitionVi: 'Những khiếm khuyết, thiếu sót, nhược điểm hoặc điểm chưa đáp ứng tiêu chuẩn đề ra.',
     passageQuote: 'In the 1950s and 1960s great progress was made, but the shortcomings of these prototype robots soon became clear.',
+    passageQuoteVi: 'Trong những năm 1950 và 1960, nhiều tiến bộ lớn đã đạt được, nhưng những thiếu sót của các robot nguyên mẫu này đã sớm trở nên rõ ràng.',
     paragraphRef: 'C',
     collocations: ['highlight shortcomings', 'overcome shortcomings', 'inherent shortcomings', 'glaring shortcomings'],
+    collocationsVi: ['chỉ rõ các thiếu sót', 'khắc phục nhược điểm', 'nhược điểm cố hữu', 'những thiếu sót rõ rệt'],
     synonyms: ['flaws', 'deficiencies', 'weaknesses', 'limitations', 'drawbacks'],
     ieltsBand: 'Band 7',
     category: 'Academic Verbs',
-    writingSpeakingTip: 'A sophisticated academic substitute for "bad things" or "problems" when critiquing systems, policies, or experimental models.'
+    categoryVi: 'Động từ & Thuật ngữ Học thuật',
+    writingSpeakingTip: 'A sophisticated academic substitute for "bad things" or "problems" when critiquing systems, policies, or experimental models.',
+    writingSpeakingTipVi: 'Từ vựng học thuật cao cấp thay thế cho "bad things" hoặc "problems" khi phản biện, đánh giá các hệ thống, chính sách hoặc mô hình thử nghiệm.'
   },
   {
     id: 'v3',
     term: 'impeded',
     phonetic: '/ɪmˈpiːdɪd/',
     partOfSpeech: 'verb (past tense)',
+    partOfSpeechVi: 'động từ (quá khứ)',
     definition: 'Hindered, obstructed, or slowed down the progress or development of something.',
+    definitionVi: 'Cản trở, gây trở ngại hoặc làm chậm tiến trình phát triển của một sự việc.',
     passageQuote: 'Over the years, various problems have impeded all efforts to create robots.',
+    passageQuoteVi: 'Qua nhiều năm, hàng loạt vấn đề đã cản trở mọi nỗ lực chế tạo robot.',
     paragraphRef: 'B',
     collocations: ['impede progress', 'impede development', 'severely impeded'],
+    collocationsVi: ['cản trở tiến trình', 'ngăn trở sự phát triển', 'bị cản trở nghiêm trọng'],
     synonyms: ['hindered', 'hampered', 'obstructed', 'thwarted', 'stymied'],
     ieltsBand: 'Band 8',
     category: 'Academic Verbs',
-    writingSpeakingTip: 'Use in cause-and-effect discussions: "Economic recessions have repeatedly impeded governmental investment in renewable infrastructure."'
+    categoryVi: 'Động từ & Thuật ngữ Học thuật',
+    writingSpeakingTip: 'Use in cause-and-effect discussions: "Economic recessions have repeatedly impeded governmental investment in renewable infrastructure."',
+    writingSpeakingTipVi: 'Sử dụng trong các lập luận nguyên nhân - kết quả: "Economic recessions have repeatedly impeded governmental investment in renewable infrastructure" (Suy thoái kinh tế đã liên tục cản trở đầu tư của chính phủ vào hạ tầng năng lượng tái tạo).'
   },
   {
     id: 'v4',
     term: 'paralysed with indecision',
     phonetic: '/ˈpærəlaɪzd wɪð ˌɪndɪˈsɪʒn/',
     partOfSpeech: 'idiomatic collocation',
+    partOfSpeechVi: 'thành ngữ / cụm cố định',
     definition: 'Completely unable to make a choice or take action due to uncertainty, fear, or endless deliberation.',
+    definitionVi: 'Hoàn toàn bị tê liệt, bế tắc không thể đưa ra quyết định hay hành động do do dự, lo sợ hoặc cân nhắc quá mức.',
     passageQuote: '...as robots become more intelligent and are able to make choices, they could likewise become paralysed with indecision.',
+    passageQuoteVi: '...khi robot trở nên thông minh hơn và có khả năng đưa ra lựa chọn, chúng cũng có thể bị tê liệt vì không thể quyết định tương tự như vậy.',
     paragraphRef: 'E',
-    collocations: ['paralysed with indecision', 'crippled by doubt', '陷入绝境/左右为难'],
+    collocations: ['paralysed with indecision', 'crippled by doubt', 'frozen by uncertainty'],
+    collocationsVi: ['tê liệt vì do dự bế tắc', 'bế tắc vì hoài nghi', 'đóng băng vì bất định'],
     synonyms: ['immobilised by choice', 'debilitated by overthinking', 'deadlocked'],
     ieltsBand: 'Band 9',
     category: 'Metaphors & Idioms',
-    writingSpeakingTip: 'Expressive phrase for psychology or management topics when discussing decision fatigue or cognitive overload.'
+    categoryVi: 'Phép ẩn dụ & Thành ngữ',
+    writingSpeakingTip: 'Expressive phrase for psychology or management topics when discussing decision fatigue or cognitive overload.',
+    writingSpeakingTipVi: 'Cụm từ rất biểu cảm cho chủ đề Tâm lý học hoặc Quản trị khi bàn về tình trạng quá tải lựa chọn hoặc bế tắc nhận thức (decision fatigue).'
   },
   {
     id: 'v5',
     term: 'universal consensus',
     phonetic: '/ˌjuːnɪˈvɜːsl kənˈsensəs/',
     partOfSpeech: 'noun phrase',
+    partOfSpeechVi: 'cụm danh từ',
     definition: 'Widespread, unanimous agreement among all members of a group or academic community.',
+    definitionVi: 'Sự đồng thuận chung, nhất trí rộng rãi giữa toàn thể các thành viên trong cộng đồng học thuật.',
     passageQuote: 'There is no universal consensus as to whether machines can be conscious, or even, in human terms, what consciousness means.',
+    passageQuoteVi: 'Hiện vẫn chưa có sự đồng thuận chung về việc liệu máy móc có thể có ý thức hay không, hoặc thậm chí, theo góc nhìn con người, ý thức thực sự là gì.',
     paragraphRef: 'F',
     collocations: ['reach a universal consensus', 'lack of universal consensus', 'scientific consensus'],
+    collocationsVi: ['đạt được sự đồng thuận chung', 'thiếu đi sự nhất trí phổ quát', 'sự đồng thuận khoa học'],
     synonyms: ['unanimous agreement', 'general accord', 'collective concurrence'],
     ieltsBand: 'Band 8',
     category: 'Formal Collocations',
-    writingSpeakingTip: 'Standard academic phrasing for controversial topics: "Although debate persists, there is a growing universal consensus regarding the urgency of AI regulation."'
+    categoryVi: 'Cụm từ Học thuật Trang trọng',
+    writingSpeakingTip: 'Standard academic phrasing for controversial topics: "Although debate persists, there is a growing universal consensus regarding the urgency of AI regulation."',
+    writingSpeakingTipVi: 'Cách diễn đạt chuẩn mực cho các chủ đề tranh luận: "Although debate persists, there is a growing universal consensus regarding the urgency of AI regulation" (Dù tranh cãi vẫn tiếp diễn, ngày càng có sự đồng thuận chung về tính cấp bách của việc quản lý AI).'
   },
   {
     id: 'v6',
     term: 'conceptual equipment',
     phonetic: '/kənˈseptʃuəl ɪˈkwɪpmənt/',
     partOfSpeech: 'noun phrase',
+    partOfSpeechVi: 'cụm danh từ',
     definition: 'The intellectual faculties, cognitive categories, or mental architecture necessary to process and understand complex ideas.',
+    definitionVi: 'Bộ máy nhận thức, năng lực tư duy hoặc cấu trúc tâm trí cần thiết để xử lý và thấu hiểu các khái niệm phức tạp.',
     passageQuote: 'They just don\'t have the conceptual equipment they need in their limited brains.',
+    passageQuoteVi: 'Chúng đơn giản là không có bộ máy khái niệm cần thiết trong bộ não giới hạn của mình.',
     paragraphRef: 'A',
     collocations: ['lack conceptual equipment', 'possess conceptual equipment', 'cognitive apparatus'],
+    collocationsVi: ['thiếu bộ máy nhận thức/khái niệm', 'sở hữu năng lực tư duy khái niệm', 'bộ máy nhận thức phức hợp'],
     synonyms: ['cognitive framework', 'intellectual faculties', 'mental capacity'],
     ieltsBand: 'Band 9',
     category: 'Artificial Intelligence & Tech',
-    writingSpeakingTip: 'Band 9 phrase for epistemological topics. Distinguishes raw computational brute force from human qualitative understanding.'
+    categoryVi: 'Trí tuệ Nhân tạo & Công nghệ',
+    writingSpeakingTip: 'Band 9 phrase for epistemological topics. Distinguishes raw computational brute force from human qualitative understanding.',
+    writingSpeakingTipVi: 'Cụm từ Band 9 xuất sắc cho các chủ đề triết học/nhận thức luận. Phân biệt rõ sức mạnh tính toán số lượng thô (brute force) với khả năng thấu hiểu định tính của con người.'
   },
   {
     id: 'v7',
     term: 'hardwired',
     phonetic: '/ˌhɑːdˈwaɪəd/',
     partOfSpeech: 'adjective',
+    partOfSpeechVi: 'tính từ',
     definition: 'Inherent, genetically determined, or permanently built into a system or organism.',
+    definitionVi: 'Bẩm sinh, mang tính cố hữu, được lập trình sẵn hoặc gắn chặt vào một hệ thống/cơ thể sinh học.',
     passageQuote: 'To aid them, robots of the future might need to have emotions hardwired into their brains.',
+    passageQuoteVi: 'Để hỗ trợ chúng, robot tương lai có thể cần phải có cảm xúc được lập trình cố định sẵn trong bộ não.',
     paragraphRef: 'E',
     collocations: ['hardwired into the brain', 'biologically hardwired', 'hardwired behavior'],
+    collocationsVi: ['được gắn sẵn vào não bộ', 'được lập trình bẩm sinh theo sinh học', 'hành vi mang tính bản năng'],
     synonyms: ['innate', 'inbuilt', 'intrinsic', 'ingrained', 'instinctive'],
     ieltsBand: 'Band 8',
     category: 'Artificial Intelligence & Tech',
-    writingSpeakingTip: 'Use when debating nature versus nurture: "Certain social reflexes appear to be hardwired into human psychology rather than acquired purely through culture."'
+    categoryVi: 'Trí tuệ Nhân tạo & Công nghệ',
+    writingSpeakingTip: 'Use when debating nature versus nurture: "Certain social reflexes appear to be hardwired into human psychology rather than acquired purely through culture."',
+    writingSpeakingTipVi: 'Dùng khi tranh luận về bản năng và nuôi dưỡng (nature vs nurture): "Certain social reflexes appear to be hardwired into human psychology rather than acquired purely through culture" (Một số phản xạ xã hội dường như đã được gắn sẵn vào tâm lý con người thay vì hoàn toàn tiếp thu qua văn hóa).'
   },
   {
     id: 'v8',
     term: 'mastery of syntax',
     phonetic: '/ˈmɑːstəri əv ˈsɪntæks/',
     partOfSpeech: 'noun phrase',
+    partOfSpeechVi: 'cụm danh từ',
     definition: 'Complete, flawless command over grammatical structures and sentence organization.',
+    definitionVi: 'Sự làm chủ hoàn hảo, thành thạo tuyệt đối về các cấu trúc ngữ pháp và trật tự câu từ.',
     passageQuote: 'A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said.',
+    passageQuoteVi: 'Một robot có sự làm chủ cú pháp hoàn hảo, trên mọi phương diện thực tế, có thể coi là hiểu những gì đang được nói.',
     paragraphRef: 'F',
     collocations: ['mastery of syntax', 'syntactic fluency', 'grammatical competence'],
+    collocationsVi: ['làm chủ hoàn hảo cú pháp', 'sự lưu loát về mặt cú pháp', 'năng lực ngữ pháp chuẩn xác'],
     synonyms: ['grammatical proficiency', 'structural fluency'],
     ieltsBand: 'Band 9',
     category: 'Formal Collocations',
-    writingSpeakingTip: 'Often contrasted with "semantics" (meaning) in philosophy of language and linguistics.'
+    categoryVi: 'Cụm từ Học thuật Trang trọng',
+    writingSpeakingTip: 'Often contrasted with "semantics" (meaning) in philosophy of language and linguistics.',
+    writingSpeakingTipVi: 'Thường được đặt trong sự đối chiếu tương phản với "ngữ nghĩa" (semantics) trong triết học ngôn ngữ và ngôn ngữ học máy tính.'
   },
   {
     id: 'v9',
     term: 'lumbering',
     phonetic: '/ˈlʌmbərɪŋ/',
     partOfSpeech: 'adjective',
+    partOfSpeechVi: 'tính từ',
     definition: 'Moving in a slow, heavy, clumsy, and awkward manner.',
+    definitionVi: 'Di chuyển chậm chạp, nặng nề, cồng kềnh và vụng về.',
     passageQuote: '...director of MIT\'s Artificial Intelligence laboratory, famous for its lumbering \'top-down\' walking robots.',
+    passageQuoteVi: '...giám đốc phòng thí nghiệm Trí tuệ Nhân tạo tại MIT, nổi tiếng với những chú robot bước đi nặng nề, cồng kềnh theo lối tiếp cận \'từ trên xuống\'.',
     paragraphRef: 'D',
     collocations: ['lumbering gait', 'lumbering machine', 'lumbering bureaucracy'],
+    collocationsVi: ['dáng đi nặng nề lạch bạch', 'cỗ máy cồng kềnh chậm chạp', 'bộ máy quan liêu chậm chạp cồng kềnh'],
     synonyms: ['clumsy', 'ponderous', 'ungainly', 'unwieldy'],
     ieltsBand: 'Band 8',
     category: 'Metaphors & Idioms',
-    writingSpeakingTip: 'Can be used metaphorically to describe slow, inefficient government bodies or legacy corporations.'
+    categoryVi: 'Phép ẩn dụ & Thành ngữ',
+    writingSpeakingTip: 'Can be used metaphorically to describe slow, inefficient government bodies or legacy corporations.',
+    writingSpeakingTipVi: 'Có thể dùng theo nghĩa ẩn dụ sinh động để miêu tả các cơ quan công quyền chậm chạp hoặc những tập đoàn già cỗi, thiếu linh hoạt.'
   }
 ];
 
@@ -140,71 +195,106 @@ export const ACADEMIC_STRUCTURES: AcademicStructure[] = [
   {
     id: 'struct-1',
     title: 'Simile for Incommensurable Cognitive Disparity',
+    titleVi: 'Phép so sánh ẩn dụ về sự chênh lệch nhận thức không thể bù đắp',
     category: 'Rhetorical Framing & Analogies',
+    categoryVi: 'Biện pháp Tu từ & Lập luận So sánh',
     pattern: '[Phenomenon A] is like [humble entity] trying to do [advanced pursuit]. They just don\'t have the [conceptual equipment]...',
     passageExample: 'Colin McGinn backs this up when he says that Artificial Intelligence \'is like sheep trying to do complicated psychoanalysis. They just don\'t have the conceptual equipment they need in their limited brains\'.',
+    passageExampleVi: 'Colin McGinn củng cố điều này khi nói rằng Trí tuệ nhân tạo "giống như một đàn cừu đang cố gắng làm phân tâm học phức tạp. Chúng đơn giản là không có bộ máy khái niệm cần thiết trong bộ não giới hạn của mình".',
     paragraphRef: 'A',
     explanation: 'Academic writers use stark, provocative similes to demonstrate that a technological or philosophical obstacle is not simply a matter of speed or quantity, but a categorical impossibility due to missing conceptual faculties.',
+    explanationVi: 'Các tác giả học thuật sử dụng phép so sánh mạnh mẽ, trực quan để chứng minh rằng một trở ngại công nghệ hoặc triết học không đơn thuần là vấn đề về tốc độ hay số lượng, mà là một sự bất khả thi mang tính phân loại do thiếu hụt hoàn toàn năng lực nhận thức cơ bản.',
     ieltsApplication: 'Use in IELTS Task 2 discussion essays to critique over-optimistic claims: "Expecting automated algorithms to resolve moral ethical dilemmas is like sheep trying to do complicated jurisprudence."',
+    ieltsApplicationVi: 'Ứng dụng trong bài luận IELTS Task 2 để phản biện các tuyên bố lạc quan thái quá: "Kỳ vọng thuật toán tự động giải quyết các tiến thoái lưỡng nan về đạo đức chẳng khác nào đàn cừu cố gắng nghiên cứu luật học phức tạp."',
     templateExercise: {
       scaffold: 'Believing that [Simplistic tool] can resolve [Complex human challenge] is like [Vivid animal analogy] trying to do [High-level discipline]; it simply lacks the requisite [Qualitative faculty].',
-      sampleCompletion: 'Believing that social media algorithms can cultivate genuine community is like toddlers trying to negotiate international diplomacy; they simply lack the requisite emotional empathy.'
+      scaffoldVi: 'Tin rằng [Công cụ đơn giản] có thể giải quyết [Thách thức phức tạp của con người] cũng giống như [Hình tượng so sánh động vật trực quan] đang cố gắng làm [Ngành học cao cấp]; nó hoàn toàn thiếu đi [Năng lực định tính cần thiết].',
+      sampleCompletion: 'Believing that social media algorithms can cultivate genuine community is like toddlers trying to negotiate international diplomacy; they simply lack the requisite emotional empathy.',
+      sampleCompletionVi: 'Tin rằng các thuật toán mạng xã hội có thể nuôi dưỡng cộng đồng chân thực cũng giống như những đứa trẻ mới biết đi cố gắng đàm phán ngoại giao quốc tế; chúng hoàn toàn thiếu đi sự đồng cảm cảm xúc cần thiết.'
     }
   },
   {
     id: 'struct-2',
     title: 'Concessive Contrast of Scale & Asymmetric Performance',
+    titleVi: 'Mệnh đề nhượng bộ thể hiện sự chênh lệch quy mô & hiệu suất bất đối xứng',
     category: 'Concessive Evaluation & Complex Contrast',
+    categoryVi: 'Đánh giá Nhượng bộ & Đối lập Phức hợp',
     pattern: 'For all their successes in [Domain A], however, [Subject] has performed [adverb: miserably/poorly] when [Attempting Domain B]...',
     passageExample: 'For all their successes in mimicking the behaviour of insects, however, robots using neural networks have performed miserably when their programmers have tried to duplicate in them the behaviour of higher organisms such as mammals.',
+    passageExampleVi: 'Tuy nhiên, dẫu cho mọi thành công trong việc bắt chước hành vi của côn trùng, robot sử dụng mạng nơ-ron lại hoạt động vô cùng tệ hại khi các lập trình viên cố gắng tái tạo trong chúng hành vi của các sinh vật bậc cao hơn như động vật có vú.',
     paragraphRef: 'D',
     explanation: 'The phrase "For all their successes in X, however, Y performed miserably" establishes a dramatic, nuanced contrast between lower-level mechanical feats and higher-order cognitive complexities.',
+    explanationVi: 'Cấu trúc "For all their successes in X, however, Y performed miserably" thiết lập sự tương phản sâu sắc giữa các thành tựu cơ học cấp thấp và sự bế tắc trước các độ phức tạp nhận thức bậc cao.',
     ieltsApplication: 'Essential for balanced IELTS Task 2 essays evaluating technological or economic reforms: "For all its success in boosting GDP, however, the industrial expansion performed miserably in addressing regional inequality."',
+    ieltsApplicationVi: 'Cực kỳ quan trọng cho các bài luận Task 2 cân bằng khi đánh giá công nghệ hoặc cải cách kinh tế: "Mặc cho mọi thành công trong việc kích thích GDP, cuộc mở rộng công nghiệp lại hoạt động thảm hại trong việc giải quyết bất bình đẳng vùng miền."',
     templateExercise: {
       scaffold: 'For all their successes in [Primary achievement], however, [Systems/Organisations] have performed miserably when [Challenging follow-up scenario].',
-      sampleCompletion: 'For all their successes in accelerating communications, however, modern smartphones have performed miserably when evaluated on their impact on adolescent attention spans.'
+      scaffoldVi: 'Dẫu cho mọi thành công trong [Thành tựu chính], tuy nhiên, [Hệ thống/Tổ chức] lại thể hiện vô cùng kém cỏi khi [Kịch bản thách thức tiếp theo].',
+      sampleCompletion: 'For all their successes in accelerating communications, however, modern smartphones have performed miserably when evaluated on their impact on adolescent attention spans.',
+      sampleCompletionVi: 'Dẫu cho mọi thành công trong việc thúc đẩy tốc độ liên lạc, tuy nhiên, điện thoại thông minh hiện đại lại thể hiện vô cùng tệ hại khi đánh giá tác động của chúng đối với khoảng chú ý của thanh thiếu niên.'
     }
   },
   {
     id: 'struct-3',
     title: 'Counterfactual Consequence of Missing Attributes',
+    titleVi: 'Hệ quả giả định từ việc thiếu hụt các thuộc tính cốt lõi',
     category: 'Logical Causality & Biological Prerequisites',
+    categoryVi: 'Quan hệ Nhân quả & Điều kiện Sinh học Tiên quyết',
     pattern: 'Without [Crucial Guide/Faculty] to guide them, [Subject] [undesirable paralysis/outcome]... To aid them, [Subject] of the future might need to have [Feature] hardwired into...',
     passageExample: 'Without emotions to guide them, they debate endlessly over their options... as robots become more intelligent and are able to make choices, they could likewise become paralysed with indecision. To aid them, robots of the future might need to have emotions hardwired into their brains.',
+    passageExampleVi: 'Nếu không có cảm xúc dẫn đường, họ sẽ tranh cãi bất tận về các lựa chọn... khi robot trở nên thông minh hơn và có khả năng đưa ra lựa chọn, chúng cũng có thể bị tê liệt vì không thể quyết định tương tự. Để hỗ trợ chúng, robot của tương lai có thể cần phải có cảm xúc được gắn sẵn vào não bộ.',
     paragraphRef: 'E',
     explanation: 'Demonstrates how a seemingly non-rational faculty (emotions) is logically essential to prevent cognitive paralysis during open-ended decision-making.',
+    explanationVi: 'Chứng minh cách một năng lực tưởng chừng như phi lý trí (cảm xúc) thực chất lại đóng vai trò tối quan trọng về mặt logic để ngăn ngừa sự tê liệt nhận thức khi đưa ra quyết định.',
     ieltsApplication: 'Use to argue for holistic education or leadership skills: "Without philosophical ethics to guide them, policymakers debate endlessly over bureaucratic metrics. To aid them, humanistic values must be integrated into core governance."',
+    ieltsApplicationVi: 'Dùng để lập luận cho giáo dục toàn diện hoặc kỹ năng lãnh đạo: "Nếu không có đạo đức triết học dẫn đường, các nhà hoạch định chính sách sẽ tranh luận bất tận về các chỉ số hành chính. Để hỗ trợ họ, các giá trị nhân văn cần phải được tích hợp vào quản trị cốt lõi."',
     templateExercise: {
       scaffold: 'Without [Intrinsic guiding principle] to guide them, [Leaders/Systems] risk becoming paralysed with [Negative state]. To aid them, [Remedy] must be hardwired into [Core institutional architecture].',
-      sampleCompletion: 'Without clear moral convictions to guide them, executive boards risk becoming paralysed with indecision during public crises. To aid them, ethical accountability must be hardwired into corporate governance.'
+      scaffoldVi: 'Nếu không có [Nguyên tắc dẫn đường cốt lõi], [Nhà lãnh đạo/Hệ thống] có nguy cơ bị tê liệt bởi [Trạng thái tiêu cực]. Để trợ giúp, [Giải pháp] phải được lập trình cố định vào [Kiến trúc tổ chức cốt lõi].',
+      sampleCompletion: 'Without clear moral convictions to guide them, executive boards risk becoming paralysed with indecision during public crises. To aid them, ethical accountability must be hardwired into corporate governance.',
+      sampleCompletionVi: 'Nếu không có niềm tin đạo đức rõ ràng dẫn đường, ban điều hành có nguy cơ bị tê liệt vì không thể quyết định trong các cuộc khủng hoảng truyền thông. Để trợ giúp, trách nhiệm giải trình đạo đức phải được gắn sâu vào quản trị doanh nghiệp.'
     }
   },
   {
     id: 'struct-4',
     title: 'Epistemic Relativism and Functional Equivalence',
+    titleVi: 'Thuyết tương đối nhận thức & Sự tương đương chức năng thực tiễn',
     category: 'Academic Caution & Operational Definitions',
+    categoryVi: 'Thận trọng Học thuật & Định nghĩa Chức năng Thực tiễn',
     pattern: 'If that happens, the question of whether [Entities] really [internal state] becomes largely irrelevant. An [Agent] that has [observable mastery], for all practical purposes, [satisfies the criterion].',
     passageExample: 'If that happens, the question of whether they really \'understand\' becomes largely irrelevant. A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said.',
+    passageExampleVi: 'Nếu điều đó xảy ra, câu hỏi liệu chúng có thực sự \'hiểu\' hay không phần lớn trở nên không còn quan trọng. Một robot làm chủ hoàn hảo cú pháp, trên mọi phương diện thực tế, coi như hiểu những gì đang được nói.',
     paragraphRef: 'F',
     explanation: 'The idiom "for all practical purposes" bypasses insoluble metaphysical debates (like the nature of machine consciousness) by asserting functional equivalence.',
+    explanationVi: 'Cụm từ "for all practical purposes" (trên mọi phương diện thực tế) vượt qua các cuộc tranh luận siêu hình hóc búa (như bản chất ý thức máy móc) bằng cách khẳng định sự tương đương về mặt chức năng vận hành.',
     ieltsApplication: 'Great for pragmatist conclusions in Task 2 essays: "Whether virtual reality recreates authentic travel is arguable, but a simulation with total sensory fidelity, for all practical purposes, delivers equivalent cultural enrichment."',
+    ieltsApplicationVi: 'Rất phù hợp cho phần kết bài theo chủ nghĩa thực tiễn trong Task 2: "Liệu thực tế ảo có tái hiện được trải nghiệm du lịch đích thực hay không là điều còn bàn cãi, nhưng một mô phỏng với độ chân thực cảm giác hoàn hảo, trên mọi phương diện thực tế, đem lại sự phong phú văn hóa tương đương."',
     templateExercise: {
       scaffold: 'If [Technological threshold] is crossed, the debate over whether [System] genuinely possesses [Human trait] becomes irrelevant; any system displaying [Observable competency], for all practical purposes, achieves [Outcome].',
-      sampleCompletion: 'If automated diagnostic accuracy surpasses clinical averages, the debate over whether machines genuinely understand pathology becomes irrelevant; any model displaying 99% accuracy, for all practical purposes, performs the duty of a medical consultant.'
+      scaffoldVi: 'Nếu [Ngưỡng công nghệ] bị vượt qua, cuộc tranh luận liệu [Hệ thống] có thực sự sở hữu [Đặc tính con người] sẽ không còn cần thiết; bất kỳ hệ thống nào thể hiện [Năng lực quan sát được], trên mọi phương diện thực tế, đều đạt được [Mục tiêu đề ra].',
+      sampleCompletion: 'If automated diagnostic accuracy surpasses clinical averages, the debate over whether machines genuinely understand pathology becomes irrelevant; any model displaying 99% accuracy, for all practical purposes, performs the duty of a medical consultant.',
+      sampleCompletionVi: 'Nếu độ chính xác chẩn đoán tự động vượt qua mức trung bình lâm sàng, cuộc tranh luận về việc máy móc có thực sự hiểu bệnh lý hay không trở nên không còn ý nghĩa; bất kỳ mô hình nào đạt độ chính xác 99%, trên mọi phương diện thực tế, đều đảm đương trọn vẹn trách nhiệm của một bác sĩ tư vấn.'
     }
   },
   {
     id: 'struct-5',
     title: 'Non-Localised Systems Architecture',
+    titleVi: 'Kiến trúc hệ thống phân tán, phi tập trung',
     category: 'Systemic Organization & Neurological Models',
+    categoryVi: 'Tổ chức Hệ thống & Mô hình Thần kinh',
     pattern: 'The [Central Process] is not localised but spread out, with [different centres] competing with one another at any given time.',
     passageExample: 'Minsky suggests the thinking process in our brain is not localised but spread out, with different centres competing with one another at any given time.',
+    passageExampleVi: 'Minsky cho rằng quá trình suy nghĩ trong não bộ chúng ta không mang tính cục bộ mà phân tán rộng khắp, với các trung tâm khác nhau cạnh tranh lẫn nhau tại bất kỳ thời điểm nào.',
     paragraphRef: 'F',
     explanation: 'Contrasts centralized, top-down structures with decentralized, competitive network architectures.',
+    explanationVi: 'Đối lập giữa cấu trúc tập trung từ trên xuống (top-down) với kiến trúc mạng lưới phi tập trung, cạnh tranh song song (bottom-up).',
     ieltsApplication: 'Ideal for describing modern decentralised networks, smart grids, or modular organizations.',
+    ieltsApplicationVi: 'Lý tưởng để mô tả các mạng lưới phân tán hiện đại, lưới điện thông minh hoặc tổ chức mô-đun linh hoạt.',
     templateExercise: {
       scaffold: 'The decision-making mechanism in [Contemporary framework] is not centralised but spread out, with [Diverse stakeholder nodes] competing with one another [Operational context].',
-      sampleCompletion: 'The decision-making mechanism in open-source software development is not centralised but spread out, with independent programmer collectives competing and collaborating at any given time.'
+      scaffoldVi: 'Cơ chế ra quyết định trong [Mô hình đương đại] không tập trung tại một chỗ mà phân tán rộng khắp, với [Các đầu mối hữu quan đa dạng] cạnh tranh và hợp tác [Bối cảnh vận hành].',
+      sampleCompletion: 'The decision-making mechanism in open-source software development is not centralised but spread out, with independent programmer collectives competing and collaborating at any given time.',
+      sampleCompletionVi: 'Cơ chế ra quyết định trong phát triển phần mềm mã nguồn mở không mang tính tập quyền mà phân tán, với các tập thể lập trình viên độc lập cạnh tranh và hợp tác cùng lúc.'
     }
   }
 ];
@@ -215,54 +305,66 @@ export const SYNONYM_MATCH_TASKS: SynonymMatchTask[] = [
     passageWord: 'shortcomings',
     paragraphRef: 'C',
     passageContext: '...great progress was made, but the shortcomings of these prototype robots soon became clear.',
+    passageContextVi: '...những tiến bộ lớn đã đạt được, nhưng những thiếu sót (shortcomings) của các robot nguyên mẫu này đã sớm trở nên rõ ràng.',
     correctSynonym: 'weaknesses / defects',
     distractors: ['achievements', 'innovations', 'abbreviations'],
-    ieltsTrapNote: 'In Question 24–26 Summary Completion, "weaknesses" in the summary directly paraphrases "shortcomings" in Paragraph C.'
+    ieltsTrapNote: 'In Question 24–26 Summary Completion, "weaknesses" in the summary directly paraphrases "shortcomings" in Paragraph C.',
+    ieltsTrapNoteVi: 'Trong Bài tóm tắt (Câu 24–26), từ "weaknesses" trong bản tóm tắt diễn đạt lại trực tiếp từ "shortcomings" trong Đoạn C.'
   },
   {
     id: 'syn-2',
     passageWord: 'unorthodox',
     paragraphRef: 'D',
     passageContext: 'He changed the course of research when he explored the unorthodox idea of tiny "insectoid" robots...',
+    passageContextVi: 'Ông đã thay đổi tiến trình nghiên cứu khi khám phá ý tưởng phi chính thống (unorthodox) về những robot nhỏ bé dạng côn trùng...',
     correctSynonym: 'unconventional / innovative',
     distractors: ['customary', 'formulaic', 'conservative'],
-    ieltsTrapNote: 'Questions frequently test "unorthodox" as a marker of innovative or non-standard scientific methods.'
+    ieltsTrapNote: 'Questions frequently test "unorthodox" as a marker of innovative or non-standard scientific methods.',
+    ieltsTrapNoteVi: 'Đề thi thường kiểm tra "unorthodox" như một dấu hiệu của phương pháp khoa học đột phá, phi truyền thống.'
   },
   {
     id: 'syn-3',
     passageWord: 'impeded',
     paragraphRef: 'B',
     passageContext: 'Over the years, various problems have impeded all efforts to create robots.',
+    passageContextVi: 'Qua nhiều năm, hàng loạt vấn đề đã cản trở (impeded) mọi nỗ lực chế tạo robot.',
     correctSynonym: 'hindered / obstructed',
     distractors: ['facilitated', 'accelerated', 'subsidised'],
-    ieltsTrapNote: '"Impede" means to obstruct or slow down, opposite to "expedite" or "enable".'
+    ieltsTrapNote: '"Impede" means to obstruct or slow down, opposite to "expedite" or "enable".',
+    ieltsTrapNoteVi: '"Impede" có nghĩa là cản trở hoặc làm chậm, trái nghĩa với "expedite" (xúc tiến) hoặc "enable" (tạo điều kiện).'
   },
   {
     id: 'syn-4',
     passageWord: 'universal consensus',
     paragraphRef: 'F',
     passageContext: 'There is no universal consensus as to whether machines can be conscious...',
+    passageContextVi: 'Hiện vẫn chưa có sự đồng thuận chung (universal consensus) về việc liệu máy móc có thể có ý thức hay không...',
     correctSynonym: 'generally accepted agreement',
     distractors: ['prevalent controversy', 'unverified hypothesis', 'individual hesitation'],
-    ieltsTrapNote: 'Directly tested in Question 19: "no generally accepted agreement" in the question matches "no universal consensus" in Paragraph F.'
+    ieltsTrapNote: 'Directly tested in Question 19: "no generally accepted agreement" in the question matches "no universal consensus" in Paragraph F.',
+    ieltsTrapNoteVi: 'Được kiểm tra trực tiếp trong Câu 19: "no generally accepted agreement" trong câu hỏi khớp với "no universal consensus" trong Đoạn F.'
   },
   {
     id: 'syn-5',
     passageWord: 'indistinguishable',
     paragraphRef: 'F',
     passageContext: 'Robots, in fact, might one day embody an architecture for thinking... that is different from ours - but also indistinguishable.',
+    passageContextVi: 'Robot trên thực tế một ngày nào đó có thể hiện thân một kiến trúc tư duy... khác với chúng ta - nhưng cũng không thể phân biệt được (indistinguishable).',
     correctSynonym: 'imperceptibly different / identical in effect',
     distractors: ['strikingly dissimilar', 'partially incomplete', 'easily recognizable'],
-    ieltsTrapNote: 'Prefix "in-" indicates negation: unable to be distinguished or told apart.'
+    ieltsTrapNote: 'Prefix "in-" indicates negation: unable to be distinguished or told apart.',
+    ieltsTrapNoteVi: 'Tiền tố "in-" biểu thị sự phủ định: không thể phân biệt hoặc nhận biết sự khác biệt.'
   },
   {
     id: 'syn-6',
     passageWord: 'lumbering',
     paragraphRef: 'D',
     passageContext: '...famous for its lumbering "top-down" walking robots.',
+    passageContextVi: '...nổi tiếng với những chú robot bước đi nặng nề, cồng kềnh (lumbering) theo lối tiếp cận từ trên xuống.',
     correctSynonym: 'clumsy / slow and heavy',
     distractors: ['nimble', 'sleek', 'aerial'],
-    ieltsTrapNote: 'Contrasts with the agile, tiny insectoid robots that Brooks subsequently developed.'
+    ieltsTrapNote: 'Contrasts with the agile, tiny insectoid robots that Brooks subsequently developed.',
+    ieltsTrapNoteVi: 'Tương phản với những chú robot nhỏ bé, linh hoạt mô phỏng côn trùng mà Brooks đã phát triển sau đó.'
   }
 ];
 
@@ -270,56 +372,74 @@ export const COLLOCATION_GAP_TASKS: CollocationGapTask[] = [
   {
     id: 'gap-1',
     sentence: 'Researchers attempted to program all the fundamental computational rules onto a single __________.',
+    sentenceVi: 'Các nhà nghiên cứu đã nỗ lực lập trình tất cả các quy tắc tính toán cơ bản vào một chiếc __________ duy nhất.',
     missingWord: 'disc',
     options: ['disc', 'cable', 'antenna', 'transistor'],
     passageRef: 'B',
     collocationRule: 'The text specifies copying rules "onto a single disc" in the top-down approach.',
-    explanation: 'Paragraph B explicitly states: "program all the essential rules onto a single disc. By inserting this into a machine, it would then become self-aware...".'
+    collocationRuleVi: 'Văn bản chỉ rõ việc sao chép các quy tắc "onto a single disc" (vào một chiếc đĩa duy nhất) theo phương pháp từ trên xuống (top-down).',
+    explanation: 'Paragraph B explicitly states: "program all the essential rules onto a single disc. By inserting this into a machine, it would then become self-aware...".',
+    explanationVi: 'Đoạn B nêu rõ: "program all the essential rules onto a single disc. By inserting this into a machine, it would then become self-aware...".'
   },
   {
     id: 'gap-2',
     sentence: 'The human brain possesses an unconscious awareness of __________ that contemporary computers lack.',
+    sentenceVi: 'Bộ não con người sở hữu nhận thức vô thức về các __________ mà máy tính đương đại hoàn toàn thiếu hụt.',
     missingWord: 'patterns',
     options: ['patterns', 'programs', 'passwords', 'pixels'],
     passageRef: 'C',
     collocationRule: 'The collocation tested in Summary Question 25: "recognise patterns" / "awareness of patterns".',
-    explanation: 'Paragraph C states: "This unconscious awareness of patterns is exactly what computers are missing."'
+    collocationRuleVi: 'Cụm từ được kiểm tra trong Câu 25: "recognise patterns" (nhận diện khuôn mẫu) / "awareness of patterns" (nhận thức về các quy luật/khuôn mẫu).',
+    explanation: 'Paragraph C states: "This unconscious awareness of patterns is exactly what computers are missing."',
+    explanationVi: 'Đoạn C viết: "This unconscious awareness of patterns is exactly what computers are missing."'
   },
   {
     id: 'gap-3',
     sentence: 'Without internal emotional feedback, intelligent agents may become completely paralysed with __________.',
+    sentenceVi: 'Nếu không có phản hồi cảm xúc nội tại, các thực thể thông minh có thể bị tê liệt hoàn toàn vì __________.',
     missingWord: 'indecision',
     options: ['indecision', 'indifference', 'injustice', 'indiscretion'],
     passageRef: 'E',
     collocationRule: 'Fixed psychological collocation: "paralysed with indecision".',
-    explanation: 'Paragraph E notes: "as robots become more intelligent and are able to make choices, they could likewise become paralysed with indecision."'
+    collocationRuleVi: 'Cụm cố định tâm lý học: "paralysed with indecision" (tê liệt vì do dự, bế tắc không thể quyết định).',
+    explanation: 'Paragraph E notes: "as robots become more intelligent and are able to make choices, they could likewise become paralysed with indecision."',
+    explanationVi: 'Đoạn E lưu ý: "as robots become more intelligent and are able to make choices, they could likewise become paralysed with indecision."'
   },
   {
     id: 'gap-4',
     sentence: 'Currently, there exists no universal __________ concerning whether synthetic minds can experience genuine consciousness.',
+    sentenceVi: 'Hiện tại, không tồn tại sự __________ chung về việc liệu tâm trí nhân tạo có thể trải nghiệm ý thức thực sự hay không.',
     missingWord: 'consensus',
     options: ['consensus', 'confusion', 'concession', 'collision'],
     passageRef: 'F',
     collocationRule: '"Universal consensus" denotes collective agreement across the discipline.',
-    explanation: 'Paragraph F opens: "There is no universal consensus as to whether machines can be conscious, or even, in human terms, what consciousness means."'
+    collocationRuleVi: '"Universal consensus" biểu thị sự đồng thuận, nhất trí của toàn bộ giới học thuật.',
+    explanation: 'Paragraph F opens: "There is no universal consensus as to whether machines can be conscious, or even, in human terms, what consciousness means."',
+    explanationVi: 'Đoạn F mở đầu: "There is no universal consensus as to whether machines can be conscious, or even, in human terms, what consciousness means."'
   },
   {
     id: 'gap-5',
     sentence: 'Tiny mobile devices are currently deployed on Mars gathering __________ for NASA expeditions.',
+    sentenceVi: 'Các thiết bị di động nhỏ bé hiện đang được triển khai trên Sao Hỏa nhằm thu thập __________ cho các chuyến thám hiểm của NASA.',
     missingWord: 'data',
     options: ['data', 'dust', 'debris', 'donations'],
     passageRef: 'D',
     collocationRule: '"Gather data" is the academic standard for empirical information collection.',
-    explanation: 'Paragraph D points out: "many of the descendants of Brooks\' insectoid robots are on Mars gathering data for NASA...".'
+    collocationRuleVi: '"Gather data" (thu thập dữ liệu) là cụm từ học thuật chuẩn xác cho hoạt động thu thập thông tin thực nghiệm.',
+    explanation: 'Paragraph D points out: "many of the descendants of Brooks\' insectoid robots are on Mars gathering data for NASA...".',
+    explanationVi: 'Đoạn D chỉ ra: "many of the descendants of Brooks\' insectoid robots are on Mars gathering data for NASA...".'
   },
   {
     id: 'gap-6',
     sentence: 'A machine with comprehensive mastery of __________ can be considered, for all practical purposes, to comprehend language.',
+    sentenceVi: 'Một cỗ máy làm chủ toàn diện về mặt __________ có thể được xem như, trên mọi khía cạnh thực tế, hiểu được ngôn ngữ.',
     missingWord: 'syntax',
     options: ['syntax', 'silicon', 'sensors', 'spelling'],
     passageRef: 'F',
     collocationRule: '"Mastery of syntax" refers to structural grammatical command in linguistic computing.',
-    explanation: 'Paragraph F concludes: "A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said."'
+    collocationRuleVi: '"Mastery of syntax" (làm chủ cú pháp) đề cập đến việc nắm vững cấu trúc ngữ pháp trong ngôn ngữ học máy tính.',
+    explanation: 'Paragraph F concludes: "A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said."',
+    explanationVi: 'Đoạn F kết luận: "A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said."'
   }
 ];
 
@@ -328,46 +448,66 @@ export const DISCOURSE_ANALYSIS_TASKS: DiscourseAnalysisTask[] = [
     id: 'disc-1',
     connector: 'Meanwhile, a fruit fly...',
     sentenceContext: 'Meanwhile, a fruit fly, with a brain containing only a fraction of the computing power, can effortlessly navigate in three dimensions.',
+    sentenceContextVi: 'Trong khi đó, một con ruồi giấm, với bộ não chỉ chứa một phần nhỏ sức mạnh tính toán, lại có thể dễ dàng định hướng trong không gian 3 chiều.',
     paragraphRef: 'C',
     functionType: 'Comparative Contrast',
+    functionTypeVi: 'So sánh & Tương phản',
     options: ['Comparative Contrast', 'Cause & Effect', 'Exemplification', 'Concession & Counter-argument'],
-    explanation: '"Meanwhile" introduces a striking biological contrast: comparing the huge, clumsy prototype robots with the tiny fruit fly possessing superior 3D navigation abilities.'
+    optionsVi: ['So sánh & Tương phản', 'Nguyên nhân & Kết quả', 'Đưa ví dụ minh họa', 'Nhượng bộ & Phản biện'],
+    explanation: '"Meanwhile" introduces a striking biological contrast: comparing the huge, clumsy prototype robots with the tiny fruit fly possessing superior 3D navigation abilities.',
+    explanationVi: '"Meanwhile" (Trong khi đó) mở ra một phép so sánh sinh học ấn tượng: đối lập giữa các robot nguyên mẫu khổng lồ, vụng về với con ruồi giấm tí hon nhưng lại sở hữu khả năng bay lượn 3 chiều vượt trội.'
   },
   {
     id: 'disc-2',
     connector: 'Because of the limitations of the top-down approach...',
     sentenceContext: 'Because of the limitations of the top-down approach to Artificial Intelligence, attempts have been made to use a \'bottom-up\' approach instead...',
+    sentenceContextVi: 'Chính vì những hạn chế của phương pháp tiếp cận từ trên xuống đối với Trí tuệ Nhân tạo, các nỗ lực đã được thực hiện để sử dụng cách tiếp cận \'từ dưới lên\' thay thế...',
     paragraphRef: 'D',
     functionType: 'Cause & Effect',
+    functionTypeVi: 'Nguyên nhân & Kết quả',
     options: ['Cause & Effect', 'Concession & Counter-argument', 'Hedging & Evaluation', 'Exemplification'],
-    explanation: '"Because of" establishes the causal motivation that triggered the paradigm shift from top-down to bottom-up robotics.'
+    optionsVi: ['Nguyên nhân & Kết quả', 'Nhượng bộ & Phản biện', 'Nhận định thận trọng & Đánh giá', 'Đưa ví dụ minh họa'],
+    explanation: '"Because of" establishes the causal motivation that triggered the paradigm shift from top-down to bottom-up robotics.',
+    explanationVi: '"Because of" (Bởi vì) thiết lập nguyên nhân trực tiếp kích hoạt sự chuyển dịch phương pháp nghiên cứu từ trên xuống sang từ dưới lên trong ngành chế tạo robot.'
   },
   {
     id: 'disc-3',
     connector: 'For all their successes in mimicking... however, robots have performed miserably...',
     sentenceContext: 'For all their successes in mimicking the behaviour of insects, however, robots using neural networks have performed miserably when their programmers have tried to duplicate in them the behaviour of higher organisms...',
+    sentenceContextVi: 'Tuy nhiên, bất chấp mọi thành công trong việc bắt chước hành vi côn trùng, robot sử dụng mạng nơ-ron lại thể hiện vô cùng tồi tệ khi các lập trình viên cố gắng sao chép hành vi của sinh vật bậc cao...',
     paragraphRef: 'D',
     functionType: 'Concession & Counter-argument',
+    functionTypeVi: 'Nhượng bộ & Phản biện',
     options: ['Concession & Counter-argument', 'Cause & Effect', 'Comparative Contrast', 'Hedging & Evaluation'],
-    explanation: '"For all their successes..., however" marks a strong concessive counter-argument: acknowledging robotic triumph at insect level while exposing failure at mammalian level.'
+    optionsVi: ['Nhượng bộ & Phản biện', 'Nguyên nhân & Kết quả', 'So sánh & Tương phản', 'Nhận định thận trọng & Đánh giá'],
+    explanation: '"For all their successes..., however" marks a strong concessive counter-argument: acknowledging robotic triumph at insect level while exposing failure at mammalian level.',
+    explanationVi: '"For all their successes..., however" (Dẫu cho mọi thành công..., tuy nhiên) đánh dấu một cấu trúc nhượng bộ - phản biện mạnh mẽ: công nhận thành công ở cấp độ côn trùng nhưng vạch trần thất bại ở cấp độ động vật có vú.'
   },
   {
     id: 'disc-4',
     connector: 'If that happens, the question of whether they really \'understand\' becomes largely irrelevant.',
     sentenceContext: 'If that happens, the question of whether they really \'understand\' becomes largely irrelevant. A robot that has perfect mastery of syntax, for all practical purposes, understands what is being said.',
+    sentenceContextVi: 'Nếu điều đó xảy ra, câu hỏi liệu chúng có thực sự \'hiểu\' hay không phần lớn trở nên không còn quan trọng. Một robot làm chủ hoàn hảo cú pháp, trên mọi phương diện thực tế, coi như hiểu những gì đang được nói.',
     paragraphRef: 'F',
     functionType: 'Hedging & Evaluation',
+    functionTypeVi: 'Nhận định thận trọng & Đánh giá',
     options: ['Hedging & Evaluation', 'Exemplification', 'Cause & Effect', 'Comparative Contrast'],
-    explanation: 'This conditional evaluation dismisses abstract metaphysical hairsplitting in favour of operational linguistic competence.'
+    optionsVi: ['Nhận định thận trọng & Đánh giá', 'Đưa ví dụ minh họa', 'Nguyên nhân & Kết quả', 'So sánh & Tương phản'],
+    explanation: 'This conditional evaluation dismisses abstract metaphysical hairsplitting in favour of operational linguistic competence.',
+    explanationVi: 'Đánh giá mang tính điều kiện này gạt bỏ những tranh cãi siêu hình trừu tượng để tập trung vào năng lực giao tiếp vận hành thực tế.'
   },
   {
     id: 'disc-5',
     connector: '...so that they can signal to humans when their batteries are running low, for example.',
     sentenceContext: '...robots will be programmed with emotions such as fear to protect themselves so that they can signal to humans when their batteries are running low, for example.',
+    sentenceContextVi: '...chẳng hạn như robot sẽ được lập trình cảm xúc như nỗi sợ hãi để tự bảo vệ mình để chúng có thể phát tín hiệu cho con người khi pin sắp cạn.',
     paragraphRef: 'E',
     functionType: 'Exemplification',
+    functionTypeVi: 'Đưa ví dụ minh họa',
     options: ['Exemplification', 'Concession & Counter-argument', 'Comparative Contrast', 'Hedging & Evaluation'],
-    explanation: '"For example" provides a concrete practical scenario illustrating how emotional programming (fear) would manifest functionally in robot battery management.'
+    optionsVi: ['Đưa ví dụ minh họa', 'Nhượng bộ & Phản biện', 'So sánh & Tương phản', 'Nhận định thận trọng & Đánh giá'],
+    explanation: '"For example" provides a concrete practical scenario illustrating how emotional programming (fear) would manifest functionally in robot battery management.',
+    explanationVi: '"For example" (Ví dụ như) cung cấp một tình huống thực tế cụ thể minh họa cách thức lập trình cảm xúc (sợ hãi) được áp dụng vào việc quản lý dung lượng pin của robot.'
   }
 ];
 
@@ -375,81 +515,120 @@ export const SPEED_EVIDENCE_TASKS: SpeedEvidenceTask[] = [
   {
     id: 'speed-1',
     prompt: 'Where does the text explain that insectoid robots learned to walk by bumping into things rather than through mathematical calculations?',
+    promptVi: 'Văn bản giải thích ở đâu rằng robot dạng côn trùng học cách đi lại bằng cách va chạm vào đồ vật thay vì tính toán toán học?',
     correctParagraph: 'D',
     keyEvidenceQuote: '...the unorthodox idea of tiny \'insectoid\' robots that learned to walk by bumping into things instead of computing mathematically the precise position of their feet.',
-    scanningClue: 'Scan for the verb phrase "learned to walk by bumping into things" or "precise position of their feet".'
+    keyEvidenceQuoteVi: '...ý tưởng phi chính thống về những robot "dạng côn trùng" nhỏ bé học cách đi lại bằng cách va chạm vào đồ vật thay vì tính toán vị trí bàn chân bằng toán học.',
+    scanningClue: 'Scan for the verb phrase "learned to walk by bumping into things" or "precise position of their feet".',
+    scanningClueVi: 'Tìm kiếm cụm động từ "learned to walk by bumping into things" hoặc "precise position of their feet".'
   },
   {
     id: 'speed-2',
     prompt: 'Where are emotions identified as biologically vital for human decision-making based on observations of brain-damaged patients?',
+    promptVi: 'Cảm xúc được xác định là tối quan trọng đối với quá trình ra quyết định của con người dựa trên quan sát các bệnh nhân bị tổn thương não ở đoạn nào?',
     correctParagraph: 'E',
     keyEvidenceQuote: 'People who have suffered a certain kind of brain injury lose the ability to experience emotions and become unable to make decisions. Without emotions to guide them, they debate endlessly over their options.',
-    scanningClue: 'Scan for medical keywords like "brain injury", "experience emotions", and "unable to make decisions".'
+    keyEvidenceQuoteVi: 'Những người từng bị một dạng tổn thương não nhất định sẽ mất khả năng trải nghiệm cảm xúc và không thể đưa ra quyết định. Nếu không có cảm xúc dẫn đường, họ sẽ tranh cãi bất tận về các lựa chọn.',
+    scanningClue: 'Scan for medical keywords like "brain injury", "experience emotions", and "unable to make decisions".',
+    scanningClueVi: 'Tìm kiếm các từ khóa y khoa như "brain injury", "experience emotions", và "unable to make decisions".'
   },
   {
     id: 'speed-3',
     prompt: 'Where is an insect contrasted with prototype robots to illustrate superior three-dimensional navigation?',
+    promptVi: 'Loài côn trùng nào được đưa ra so sánh với robot nguyên mẫu để minh họa khả năng định hướng 3 chiều vượt trội ở đoạn nào?',
     correctParagraph: 'C',
     keyEvidenceQuote: 'Meanwhile, a fruit fly, with a brain containing only a fraction of the computing power, can effortlessly navigate in three dimensions.',
-    scanningClue: 'Scan for the specific biological noun "fruit fly" and "three dimensions".'
+    keyEvidenceQuoteVi: 'Trong khi đó, một con ruồi giấm, với bộ não chỉ chứa một phần nhỏ sức mạnh tính toán, lại có thể dễ dàng định hướng trong không gian 3 chiều.',
+    scanningClue: 'Scan for the specific biological noun "fruit fly" and "three dimensions".',
+    scanningClueVi: 'Tìm kiếm danh từ sinh học cụ thể "fruit fly" (ruồi giấm) và "three dimensions" (không gian ba chiều).'
   },
   {
     id: 'speed-4',
     prompt: 'Where are mathematicians and computer scientists described as being confident and optimistic about thinking machines emerging?',
+    promptVi: 'Các nhà toán học và khoa học máy tính được mô tả là tự tin và lạc quan về sự ra đời của cỗ máy biết suy nghĩ ở đoạn nào?',
     correctParagraph: 'B',
     keyEvidenceQuote: 'But a sizeable number of mathematicians and computer scientists, who are specialists in the area, are optimistic about the possibilities. To them it is only a matter of time before a thinking machine walks out of the laboratory.',
-    scanningClue: 'Scan for "mathematicians", "computer scientists", and "optimistic about the possibilities".'
+    keyEvidenceQuoteVi: 'Nhưng một lượng đáng kể các nhà toán học và khoa học máy tính... tỏ ra lạc quan về các khả năng này. Đối với họ, việc một cỗ máy biết suy nghĩ bước ra khỏi phòng thí nghiệm chỉ còn là vấn đề thời gian.',
+    scanningClue: 'Scan for "mathematicians", "computer scientists", and "optimistic about the possibilities".',
+    scanningClueVi: 'Tìm kiếm các từ "mathematicians", "computer scientists", và "optimistic about the possibilities".'
   },
   {
     id: 'speed-5',
     prompt: 'Where does a philosopher compare AI to sheep trying to carry out complicated psychoanalysis?',
+    promptVi: 'Nhà triết học nào so sánh AI với đàn cừu cố gắng tiến hành phân tâm học phức tạp ở đoạn nào?',
     correctParagraph: 'A',
     keyEvidenceQuote: 'Colin McGinn of Rutgers University backs this up when he says that Artificial Intelligence \'is like sheep trying to do complicated psychoanalysis. They just don\'t have the conceptual equipment they need in their limited brains\'.',
-    scanningClue: 'Scan for the proper name "Colin McGinn" or the vivid animal noun "sheep".'
+    keyEvidenceQuoteVi: 'Colin McGinn thuộc Đại học Rutgers củng cố điều này khi nói rằng AI "giống như một đàn cừu đang cố gắng làm phân tâm học phức tạp. Chúng đơn giản là không có bộ máy khái niệm cần thiết trong bộ não giới hạn của mình".',
+    scanningClue: 'Scan for the proper name "Colin McGinn" or the vivid animal noun "sheep".',
+    scanningClueVi: 'Tìm kiếm tên riêng "Colin McGinn" hoặc danh từ động vật sinh động "sheep" (đàn cừu).'
   }
 ];
 
-export const PARAPHRASE_MASTERY_PAIRS = [
+export const PARAPHRASE_MASTERY_PAIRS: ParaphrasePair[] = [
   {
     id: 'p1',
     original: 'machines are physically incapable of human thought',
+    originalVi: 'máy móc bất khả thi về mặt vật lý để đạt được tư duy của con người',
     paraphrase: 'the possibility of creating Artificial Intelligence being doubted by some academics',
+    paraphraseVi: 'khả năng tạo ra Trí tuệ nhân tạo bị nghi ngờ bởi một số học giả',
     context: 'Paragraph A: Physicist Roger Penrose of Oxford University and others believe...',
-    questionType: 'Locating Information (Question 18)'
+    contextVi: 'Đoạn A: Nhà vật lý Roger Penrose thuộc Đại học Oxford và những người khác tin rằng...',
+    questionType: 'Locating Information (Question 18)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 18)'
   },
   {
     id: 'p2',
     original: 'tiny \'insectoid\' robots that learned to walk by bumping into things',
+    originalVi: 'những robot nhỏ bé "dạng côn trùng" học cách đi lại bằng cách va chạm vào đồ vật',
     paraphrase: 'robots being able to benefit from their mistakes',
+    paraphraseVi: 'robot có khả năng hưởng lợi/học hỏi từ chính những sai lầm của chúng (va đập rồi tự chỉnh)',
     context: 'Paragraph D: Brooks\' unorthodox bottom-up approach...',
-    questionType: 'Locating Information (Question 15)'
+    contextVi: 'Đoạn D: Hướng tiếp cận từ dưới lên phi chính thống của Rodney Brooks...',
+    questionType: 'Locating Information (Question 15)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 15)'
   },
   {
     id: 'p3',
     original: 'a sizeable number of specialists... are optimistic about the possibilities... it is only a matter of time',
+    originalVi: 'một số lượng đáng kể các chuyên gia... tỏ ra lạc quan về triển vọng... việc đó chỉ là vấn đề thời gian',
     paraphrase: 'many researchers not being put off believing that Artificial Intelligence will eventually be developed',
+    paraphraseVi: 'nhiều nhà nghiên cứu không hề nản lòng và tin rằng AI rốt cuộc sẽ được phát triển thành công',
     context: 'Paragraph B: Mathematicians and computer scientists...',
-    questionType: 'Locating Information (Question 16)'
+    contextVi: 'Đoạn B: Các nhà toán học và khoa học máy tính...',
+    questionType: 'Locating Information (Question 16)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 16)'
   },
   {
     id: 'p4',
     original: 'unorthodox idea of tiny insectoid robots... on Mars gathering data... performed miserably duplicated in higher organisms',
+    originalVi: 'ý tưởng độc đáo về robot côn trùng... trên Sao Hỏa thu thập dữ liệu... hoạt động rất tệ hại khi thử nghiệm trên động vật bậc cao',
     paraphrase: 'an innovative approach that is having limited success',
+    paraphraseVi: 'một hướng tiếp cận mang tính đột phá nhưng mới chỉ đạt được thành công hạn chế',
     context: 'Paragraph D: Rodney Brooks\' MIT laboratory...',
-    questionType: 'Locating Information (Question 17)'
+    contextVi: 'Đoạn D: Phòng thí nghiệm MIT của Rodney Brooks...',
+    questionType: 'Locating Information (Question 17)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 17)'
   },
   {
     id: 'p5',
     original: 'no universal consensus as to whether machines can be conscious, or even, in human terms, what consciousness means',
+    originalVi: 'không có sự đồng thuận chung về việc liệu máy móc có thể có ý thức hay không, hoặc thậm chí ý thức là gì',
     paraphrase: 'no generally accepted agreement of what our brains do',
+    paraphraseVi: 'chưa có sự nhất trí được chấp nhận rộng rãi về những gì não bộ chúng ta thực sự làm',
     context: 'Paragraph F: The nature of consciousness and cognition...',
-    questionType: 'Locating Information (Question 19)'
+    contextVi: 'Đoạn F: Bản chất của ý thức và nhận thức...',
+    questionType: 'Locating Information (Question 19)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 19)'
   },
   {
     id: 'p6',
     original: 'Children learn the intuitive laws of biology and physics by interacting with the real world. Robots know only what has been programmed into them.',
+    originalVi: 'Trẻ em học các định luật trực quan về sinh học và vật lý thông qua tương tác với thế giới thực. Robot chỉ biết những gì đã được lập trình sẵn.',
     paraphrase: 'robots not being able to extend their intelligence in the same way as humans',
+    paraphraseVi: 'robot không thể mở rộng trí thông minh của chúng theo cách tương tự như con người',
     context: 'Paragraph C: Lack of common sense and real-world interaction...',
-    questionType: 'Locating Information (Question 20)'
+    contextVi: 'Đoạn C: Sự thiếu hụt nhận thức thông thường (common sense) và tương tác thực tế...',
+    questionType: 'Locating Information (Question 20)',
+    questionTypeVi: 'Dạng Định vị Thông tin (Câu 20)'
   }
 ];
